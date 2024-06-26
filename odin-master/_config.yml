@@ -1,49 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Odin - A Jekyll Knowledge Base Theme
-description: Odin is a simple to setup and use Jekyll theme for help desks and knowledge bases. Hosts for free on Github Pages!
-baseurl: /odin # the subpath of your site, e.g. /support
-url: https://teaguns.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+title: 박소연의 블로그
+description: 새로 만들어 보았습니다.
+baseurl: "" # 사용자 페이지이므로 비워둡니다
+url: "https://SYeonHi.github.io" # 블로그 주소
 permalink: /:categories/:title
 
-content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
-use_authors: true #Set this to false to disable showing post authors
+content_type: Knowledge Base # 사이트 유형 설정
+use_authors: true # 게시물 작성자 표시 여부
 
-brand_logo: logo.png
-brand_name: Odin
-header: How can we help you?
-subheader: Support and documentation for Odin
+brand_logo: # 브랜드 로고 이미지 경로 (필요시)
+brand_name: # 브랜드 이름 (필요시)
+header: SYeonHi의 블로그에 오신 것을 환영합니다.
+subheader: 프로젝트, 스터디 기록을 위주로 합니다.
 
-meta_image: odin-meta.png
+meta_image: # 메타 이미지 경로 (필요시)
 
-# Social Links
-twitter_username: TheTeaGuns
-facebook_page:
-github_username: TeaGuns
-email: m@credd.in
-linkedin_page:
-instagram_username: 
+# 소셜 링크
+twitter_username: # 트위터 사용자 이름 (필요시)
+facebook_page: # 페이스북 페이지 URL (필요시)
+github_username: SYeonHi # GitHub 사용자 이름
+email: soyeon0964@chungbuk.ac.kr # 이메일 주소
+linkedin_page: # LinkedIn 페이지 URL (필요시)
+instagram_username: soyeon0964 # 인스타그램 사용자 이름 (필요시)
 
-
-# Navivation
+# 네비게이션 설정
 nav_item_one: Github
 nav_item_one_link: https://github.com/TeaGuns/odin
 
@@ -56,7 +35,7 @@ nav_item_three_link: #
 nav_button: Return to Odin Home
 nav_button_link: https://teaguns.github.io/odin/
 
-# More Help
+# 추가 도움말 설정
 help_one_title: Odin Bugs
 help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
 help_one_button: Github
@@ -67,22 +46,16 @@ help_two_content: Feel free to tweet at me if you have suggestions for Odin. Or 
 help_two_button: Twitter
 help_two_link: https://twitter.com/theteaguns
 
-# Build settings
+# 빌드 설정
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# 처리에서 제외할 항목
+exclude: # 필요시 항목 추가
 
-
+# SASS 설정
 sass:
-  sass_dir:          _scss
-  style:            :compressed
+  sass_dir: _scss
+  style: :compressed
