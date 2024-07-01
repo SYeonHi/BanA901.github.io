@@ -1,3 +1,3 @@
-source 'https://github.com/SYeonHi/BanA901.github.io.git'
+source 'https://github.com/SYeonHi/BanA901.github.io'
 
-gem 'bana901'
+gem 'jekyll'
