@@ -1,3 +1,3 @@
-source 'https://github.com/SYeonHi/BanA901.github.io'
+source 'https://rubygems.org'
 
 gem 'jekyll'
